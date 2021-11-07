@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  taklimakan-fp:
+  taklimakan:
     build: .
-    container_name: taklimakan-fp
+    container_name: taklimakan
     restart: always
     ports:
       - 3040:80
